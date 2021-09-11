@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.blog {
+  width: 100%;
+}
+
+.blog-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.auth-pic {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.author-name {
+  color: black;
+  font-size: 20px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+@media screen and (min-width: 575px) {
+  .blog-image {
+    width: 660px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.blog-content {
+  margin-top: 15px;
+  font-family: 'Roboto';
+  line-height: 24px;
+  color: #2f4f4f;
+}
